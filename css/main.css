@@ -59,7 +59,7 @@ nav {
   /* margin-bottom: 80px; */
 }
 
-#h2seccion2 {
+/* #h2seccion2 {
   font-weight: 700;
   font-size: 52px;
   color: #000000!important;
@@ -88,7 +88,7 @@ nav {
 
 #card-supesto4-2{
   max-width: 90%;!important
-}
+} */
 
 /* SEPARADOR FRASE */
 
@@ -99,13 +99,13 @@ nav {
 }
 
 /* SERVICIOS */
-#servicios {
+/* #servicios {
   background-color: #FF0031;
-}
+} */
 
 
 /* TITULO DE SERVICIOS */
-.jumbotron {
+/* .jumbotron {
   background-color: #FF0031 !important;
 }
 
@@ -115,7 +115,7 @@ nav {
 
 #h4servicios {
   color: #f1f1f1;
-}
+} */
 /*-------TARJETAS DE SERVICIOS---------*/
 .card{
   border-radius: 4px;
@@ -127,7 +127,10 @@ cursor: pointer;
 }
 
 .card{
-  max-width: 90%;!important
+  max-width: 90%; !important
+  padding-left: 15px; !important
+  padding-right: 15px;
+
 }
 
 
@@ -138,6 +141,18 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 
 .card h3{
 font-weight: 600;
+}
+
+.card-body {
+  padding: 14px 15px 18px 15px !important;
+
+}
+
+
+.card-img,
+.card-img-top {
+  width: 142px;
+  height: 151px;
 }
 
 /* .card img{
