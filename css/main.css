@@ -228,6 +228,39 @@ background-image: url(../img/cita_botones.jpg);
     }
   } 
 
+   /* Regla de CSS personalizada para pantallas entre 375px y 400px */
+   @media (min-width: 375px) {
+    .col-lg-3.col-md-6.col-6.mb-4 {
+        width: 100%;
+    }
+}
+
+/* Regla para centrar la imagen en todo tipo de pantalla */
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Regla para eliminar los espacios de relleno izquierdo y derecho de la columna */
+.col-lg-3.col-md-6.col-6.mb-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card img {
+  max-width: 100%; /* La imagen no superará el ancho de su contenedor */
+  height: auto; /* La altura se ajustará automáticamente para mantener la relación de aspecto */
+}
+
+/* Añadimos una regla de medios para pantallas pequeñas */
+@media (max-width: 767px) {
+  .card img {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor en pantallas pequeñas */
+    height: auto; /* La altura se ajustará automáticamente para mantener la relación de aspecto */
+  }
+}
+
 /* FOOTER */
 .footer{
   background: linear-gradient(to bottom left, #aefc9c, #00740f);
